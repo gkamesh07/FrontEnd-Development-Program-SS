@@ -1,0 +1,78 @@
+html {
+    font-family: 'Karla', sans-serif !important;
+    font-size: 16px;
+    font-weight: 400,700;
+    background: hsl(218, 22%, 67%) !important;
+}
+.bg{
+    background: hsl(218, 22%, 67%);
+}
+body {
+    background: hsl(218, 22%, 67%);
+    font-family: 'Karla', sans-serif !important;
+    font-size: 16px;
+    font-weight: 400,700;
+}
+
+.container {
+    width: 1440px !important;
+    margin: auto !important;
+}
+.bg-primary {
+    background-color: hsl(179, 62%, 43%) !important;
+}
+
+.bg-prime {
+    background-color: hsl(179, 66%, 47%) !important;
+}
+
+.text-prim {
+    color: hsl(179, 80%, 49%) !important;
+}
+
+.text-primary1 {
+    color: hsl(179, 62%, 43%);
+    font-family: 'Karla', sans-serif !important;
+}
+
+.text-primary2 {
+    color: hsl(71, 73%, 54%);
+    font-family: 'Karla', sans-serif !important;
+}
+
+.Grid {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.281);
+    border-radius: 5px;
+    background-color: white;
+}
+
+.gray {
+    color: hsl(203, 12%, 72%) !important;
+}
+
+.grayish-blue {
+    color: hsl(218, 22%, 67%);
+}
+
+.btn-primary {
+    background-color: hsl(71, 73%, 54%) !important;
+    border-color: hsl(71, 73%, 54%) !important;
+
+}
+
+@media (max-width: 768px) {
+    .btn-block {
+      width: 250px;
+      height: 50px;
+    }
+  }
+
+.btn {
+    padding: 10px 16px;
+    transition: all .4s;
+  }
+  
+.btn:hover {
+    color: rgba(243, 157, 19, 0.712);
+    
+  }
